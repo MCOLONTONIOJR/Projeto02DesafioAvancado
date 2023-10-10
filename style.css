@@ -1,0 +1,131 @@
+body {
+    
+    margin: 0;
+    background: #2C2B3D;
+    min-height: 100vh;
+    
+}
+
+.page{
+    border: 1px solid red;
+    width: 1090px; /*review*/
+    margin: 80px;/*review*/
+    padding: 88px; /*review*/
+}
+
+nav {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 71px auto 100px; /*review*/
+    padding: 0;
+    width: 1080px;
+    
+}
+
+
+ul {
+   
+    list-style: none;
+    display: flex;
+    gap: 64px;/*dá espaço entre os itens da lista*/
+    margin: 0;/*retirando a margem dos itens para NÃO ATRAPALHAR na centralização*/
+    padding: 0;/*retirando a preenchimento dos itens para NÃO ATRAPALHAR na centralização*/
+    font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+   
+    text-decoration: none;/*eliminando o sublinado links*/
+    color: #FFF; /*cor do texto*/
+}
+
+ul li a {
+    opacity: 0.5; /*para gerar opacidade no texto do link*/
+} 
+
+ul li a:hover {
+    font-weight: bold; /*MUITO LEGAL: ao passar o mouse em cima a fonte muda para negrito/bold */
+    opacity: 1;
+}
+
+main {
+    
+    margin: 101px auto 99px;
+    width: 1092px; 
+    height: 283px;
+    
+    display:flex; /*para deixar os elementos lado a lado*/
+    align-items: center; /*para deixar os elementos alinhados horizontalmente*/
+    justify-content: space-between; /*para inserir espaço entre os textos e a imagem*/
+}
+
+h1 {
+    
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px; /*tamanho da fonte*/
+    line-height: 40px; /*altura da linha*/
+    color:#FFF; /*cor do texto*/
+    font-weight: 700; /*fonte do texto normal, ou seja, sem negrito*/
+    width: 608px; /*largura da caixa onde está o título*/
+   
+}
+
+h1 span {
+    color:#00BFA6;/*cor do texto "exclusivos"*/
+    font-weight: bold; /*fonte do texto "exclusivos*/
+}
+
+section p {
+    
+    font-size: 16px; /*tamanho da fonte*/
+    line-height: 28px; /*altura da linha*/
+    color: #C2C2C2; /*cor do texto*/
+   
+    font-family: 'Open Sans', sans-serif;
+    width: 604px; /*largura da caixa onde está o título*/
+    height: 168px;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+}
+
+
+section p span {
+    color:#00BFA6;/*cor do texto "exclusivos"*/
+    font-weight: bold; /*fonte do texto "exclusivos*/
+}
+
+footer {
+    
+    font-family: 'JetBrains Mono', monospace;
+    color: #FFF;
+    font-weight: 500; /*fonte do texto "exclusivos*/
+    font-size: 14px; /*tamanho da fonte*/
+    line-height: 28px; /*altura da linha*/
+    text-align: center; /*alinhamento do texto*/
+    margin: 157px auto 23px; /*distância ↑ entre o elemento footer e o main*/
+    width: 568px;
+}
+
+footer a {
+    font-weight: bold; /*destaque em negrito para o texto do link*/
+}
+                
+footer a:hover {
+    color: #00BFA6;
+    
+}
+#line {
+
+    width: 568px; /*largura da caixa da linha*/
+    height: 0px; /*altura da caixa da linha*/
+    border: 1px#00BFA6 solid; /*largura, cor e estilo da linha*/
+    margin:0px auto 27px;
+}
+#padlock {
+    position: fixed; /*par deixar a imagem travada/fixa*/
+    bottom: 0;/*para a imagem não ter distanciamento da parte inferior*/
+    left: 0;/*para a imagem não ter distanciamento no lado direito*/
+}
